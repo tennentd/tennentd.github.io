@@ -1,0 +1,474 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#dropdown {
+  display: block;
+  width: 100%;
+  height: 60px;
+  background-color: #adf4ff;
+  position: fixed;
+  top: 0;
+  z-index: 99999 !important;
+
+}
+
+#dropdown ul {
+	list-style: none;
+	padding: 0px;
+  display: flex;
+  float: center;
+  font-weight: bold;
+}
+
+#dropdown ul li {
+  float: center;
+  list-style: none;
+  position: relative;
+
+}
+
+#dropdown ul li a {
+  font-family: 'Cutive Mono', monospace;
+  font-size: 20px;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 22px 40px;
+  text-decoration: none;
+  
+}
+
+#dropdown ul li ul {
+  display: none;
+  position: absolute;
+  background-color: white;
+  padding: 5px;
+  overflow: hidden;
+  float: left;
+}
+
+#dropdown ul li:hover ul {
+  display: block;
+}
+
+#dropdown ul li ul li {
+width: 180px;
+}
+
+#dropdown ul li ul li a {
+padding: 12px 14px;
+}
+
+#dropdown ul li ul li a:hover {
+background-color: #adf4ff;
+font-weight: bold;
+}
+
+ .indexh1 {
+ display: inline-block;
+ 	font-family: 'Dancing Script', cursive;
+ 	font-size: 90px;
+}
+.indexh1 h1 {
+display: inline-block;
+ }
+
+.description {
+  position: relative;
+  display: block;
+  margin: 100px auto 0 auto;
+  text-align: center;
+  width: 100%;
+  overflow: hidden;
+}
+img {
+  display: block;
+  margin: 0 auto 20px auto;
+}
+.indexh2 {
+  display: block;
+}
+
+.indexh2 h2{
+  font-family: 'Cutive Mono', monospace;
+  font-size: 30px;
+}
+.indexheader {
+  width: 100%;
+  min-height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.overlay {
+  top: 60px;
+  width: 100%;
+  height: calc(100% - 60px);
+  opacity: 0.55;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  z-index: -5;
+}
+
+section {
+height: 100%;
+display: flex;
+}
+
+.border {
+  border: 15px grey;
+  padding: 10px;
+  width: calc(100% - 110px);
+  height: 100%;
+  margin: 25px;
+  border-style: solid;
+  margin-top: 85px;
+}
+
+.molecule img {
+  width: 175px;
+  height: 140px;
+}
+
+.molecule {
+  float: right;
+  display: block;
+  position: relative;
+   margin-top: 40px;
+  margin-right: 65px;
+}
+
+.text {
+  width: calc(100% - 50px);
+  margin: 30px auto;
+}
+
+.border h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 70px;
+  text-align: center;
+  margin-left: 225px;
+
+ }
+
+ .border .intro {
+  font-family: 'Muli', sans-serif;
+  font-size: 16px;
+  padding: none;
+  margin: 30px;
+  text-align: center;
+ }
+
+
+ .border p {
+  font-family: 'Muli', sans-serif;
+  font-size: 18px;
+  padding: none;
+  margin: 30px;
+ }
+
+ /*.border h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 25px;
+  margin-left: calc(50% - 700px);
+  position: relative;
+  margin-top: -25px;
+  background: #fff;
+  padding: 5px 3px 3px 5px;
+  text-align: center;
+ }
+*/
+ .border .line {
+  border: none;
+  height: 10px;
+  background-color: #adf4ff;
+  margin-top: 50px;
+  z-index: -1;
+ }
+
+ .border h3 {
+  font-weight: bold;
+  font-size: 18px;
+ }
+
+ .border .def {
+  font-family: 'Muli', sans-serif;
+  font-size: 16px;
+  margin-top: -30px;
+ }
+
+ .border .headings {
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+  left: calc(50% - 90px);
+  position: absolute;
+  padding: 10px 0px;
+  text-align: center;
+  margin-top: -15px;
+ }
+
+ .headings h2 {
+    background: #fff;
+    padding: 5px 20px;
+ }
+
+.eg h3 {
+   font-family: 'Dancing Script', cursive;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  margin-top: -40px;
+}
+
+.eg p {
+ font-family: 'Muli', sans-serif;
+  font-size: 16px;
+  padding: none;
+  margin-top: 50px;
+}
+  
+.title h1 {
+  text-align: center;
+  margin-right: 120px;
+}
+
+h4 {
+  font-size: 25px;
+}
+
+
+/* Quiz CSS */
+.quizborder {
+   border: 5px grey;
+  width: calc(100% - 110px);
+  height: 274px;
+  margin: 25px;
+  border-style: solid;
+  margin-top: 100px;
+}
+
+.quizcontent {
+  background: #adf4ff;
+  text-align: center;
+  width: 100%;
+  height: 50%;
+ 
+}
+
+.quizcontent {
+  display: table;
+}
+
+.quizcontent {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#quiz {
+  margin: 10px 10px 10px;
+  position: relative;
+  width: calc(100% - 20px);
+
+}
+
+.quizbuttons {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 100px;
+}
+.quizbuttons button {
+  padding: 4px 8px;
+  background: #adf4ff;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+}
+
+#question {
+  padding: 20px;
+  background: #adf4ff;
+  text-align: center;
+}
+
+#question h2 {
+  margin-bottom: 16px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#question input[type=radio] {
+  display: none;
+}
+
+#question label {
+  display: inline-block;
+  margin: 4px;
+  padding: 8px;
+  background: white;
+  width: calc(50% - 8px);
+  min-width: 50px;
+  cursor: pointer;
+}
+
+#question input[type=radio]:checked + label {
+  background: grey;
+  color: #FAFAFA;
+}
+
+#quiz-results {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  top: 44px;
+  left: 0px;
+  background: #FAFAFA;
+  width: 100%;
+  height: calc(100% - 44px);
+}
+
+#quiz-results-message {
+  display: block;
+  color: #00403C;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#quiz-results-score {
+  display: block;
+  color: #31706c;
+  font-size: 20px;
+}
+
+#quiz-results-score b {
+  color: #00403C;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#quiz-retry-button {
+
+  float: left;
+  margin: 8px 0px 0px 8px;
+  padding: 4px 8px;
+  background: #9ACFCC;
+  color: #00403C;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+  
+}
+
+
+@media only screen and (max-width: 800px) {
+
+.indexh1 {
+  font-size: 50px;
+ }
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ width: 150px;
+ height: 150px;
+}
+section {
+  height: 100%;
+}
+.border {
+border: 5px grey;
+  padding: 10px;
+  width: calc(100% - 10px);
+  height: 100%;
+  margin: 25px;
+  border-style: solid;
+  margin-top: 85px;
+}
+
+.molecule img {
+   width: 130px;
+  height: 95px;
+}
+
+.molecule {
+   margin-top: -20px;
+  margin-right: 45px;
+}
+
+.text {
+  width: calc(100% - 10px);
+  margin: 0px auto;
+}
+
+.border h1 {
+  font-size: 50px;
+  text-align: center;
+  margin-left: 30px;
+  margin-top: 30px;
+ }
+
+ .border .intro {
+  font-family: 'Muli', sans-serif;
+  font-size: 14px;
+  padding: none;
+  margin: 50px 0px;
+  text-align: center;
+ }
+
+
+ .border p {
+  font-size: 14px;
+ }
+/*
+ .border h2 {
+  font-size: 25px;
+  position: relative;
+  margin-top: -25px;
+  background: #fff;
+  padding: 2px 5px 3px 5px;
+  text-align: center;
+ }
+*/
+
+ .border h3 {
+  font-weight: bold;
+  font-size: 18px;
+ }
+
+ .border .def {
+  font-size: 16px;
+  margin-top: -30px;
+ }
+
+/*
+ .border .headings {
+  font-size: 20px;
+  margin-left: calc(62% - 120px);
+  position: absolute;
+  padding: 10px 0px;
+  text-align: center;
+  margin-top: 10px;
+ }
+*/
+ .border .headings {
+  margin-top: -30px;
+  font-size: 19px;
+ }
+
+h4 {
+  font-size: 20px;
+}
